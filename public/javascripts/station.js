@@ -15,6 +15,7 @@ function Station(x,y) {
 
 	this.representation.mouseover(function(){
 		self.representation.animate({r : self.radius + 10}, 100);
+		console.log("x : ",self.x);
 	})
 
 	this.representation.mouseout(function(){
